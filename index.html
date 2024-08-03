@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Portfolio</title>
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <div class="heading">
+                    <img src="IT eXPERT.png" alt="Profile Image" width="50px" height="50px">
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section home">
+        <div class="content">
+            <h1>Hello, I'm Haseeb</h1>
+            <p>Programmer | Machine Learning | Web Developer</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+        
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="attendance2-1.png" alt="Project 1">
+                <div class="portfolio-info">
+                    <h3>Python Project</h3>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="dsa-online-thumbnail-old.png" alt="Project 2">
+                <div class="portfolio-info">
+                    <h3>Data Structure In Java</h3>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="course1.png" alt="Project 3">
+                <div class="portfolio-info">
+                    <h3>Coursera Courses</h3>
+                    <a href="#" class="btn">View Details</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="haseeb.jpg" alt="About Me">
+            </div>
+            <div class="about-text">
+                <p>I am the student of Bachlear and I have studied <br>Programming Fundamentals in C++ <br> Object Oriented in C++ <br> Computer Networking <br> Data Structure And Algorithm in Java <br>Database Sql .</p>
+                <a href="#portfolio" class="btn">See My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <h2 class="section-title">Services</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <i class="fas fa-code service-icon"></i>
+                <h3>Web Development</h3>
+                <p>Building responsive and high-quality websites.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-paint-brush service-icon"></i>
+                <h3>Machine Learning</h3>
+                <p>Can use Python to do Machine Learning Tasks.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-mobile-alt service-icon"></i>
+                <h3>Database</h3>
+                <p>Developing Database using MySQL Xamp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
